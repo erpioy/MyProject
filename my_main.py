@@ -129,7 +129,7 @@ class MainWindow(QMainWindow):
 
     def setInitialSize(self):
         # 设置窗口的初始大小，例如 800x600
-        self.setGeometry(1000, 500, 700, 900)  # 参数分别为 x, y, 宽度, 高度
+        self.setGeometry(1000, 500, 700, 900)  # 参数分别为x,y,宽度,高度
         # 或者使用 resize 方法
         # self.resize(800, 600)
 
